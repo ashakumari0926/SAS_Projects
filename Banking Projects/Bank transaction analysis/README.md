@@ -31,7 +31,7 @@
 | Variable | Type | Description |
 |----------|------|-------------|
 | `txn_id` | Numeric | Unique transaction ID |
-| `acct_id` | Numeric | Links to `BANK.ACCOUNTS` |
+| `acct_id` | Numeric | Links to `work.ACCOUNTS` |
 | `txn_date` | Numeric (date) | Date of the transaction |
 | `txn_type` | Character | Deposit or Withdrawal |
 | `amount` | Numeric | Amount in INR |
