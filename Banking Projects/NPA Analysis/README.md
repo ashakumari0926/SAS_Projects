@@ -180,7 +180,7 @@ The program is divided into two parts:
 
 **Key Insight:** Key Insight: Loan account **55** had the highest outstanding NPA amount of **₹47,244,000**, making it the largest NPA exposure identified in the analysis.
 
-### 9. Overall Business Insights
+### 7. Overall Business Insights
 
 Based on the analysis, the following observations were identified:
 
@@ -192,7 +192,7 @@ Based on the analysis, the following observations were identified:
 | 4 | Security Risk | Unsecured loans showed a higher NPA incidence (14.70%) compared to secured loans (9.10%). |
 | 5 | Provisioning | The Loss asset class required the highest effective provisioning rate of 100.00%, amounting to ₹4,125,000. |
 
-### 10. Visualizations
+### 8. Visualizations
 
 The following charts were generated using `PROC SGPLOT`:
 
