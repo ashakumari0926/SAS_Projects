@@ -1,4 +1,4 @@
-# Project 4: Monthly Deposit and Withdrawal Analysis
+# Project: Monthly Deposit and Withdrawal Analysis
 
 ## Project Details
 
@@ -9,11 +9,11 @@
 - Which months had positive or negative net cash flow?
 - What is the overall trend from January to June 2026?
 
-**Program:** `04_monthly_deposit_withdrawal.sas` (Part A creates the data, Part B runs the analysis)
+**Program:** `monthly_deposit_withdrawal.sas` (Part A creates the data, Part B runs the analysis)
 
 ## Data Details
 
-**Dataset:** `BANK.TRANSACTIONS` - 40 rows, one per transaction, January to June 2026.
+**Dataset:** `WORK.TRANSACTIONS` - 40 rows, one per transaction, January to June 2026.
 
 | Variable | Type | Description |
 |----------|------|-------------|
@@ -29,7 +29,6 @@
 
 | Keyword | Purpose in this project |
 |---------|-------------------------|
-| `%LET`, `LIBNAME` | Set the folder path and create library `BANK` |
 | `DATA`, `SET`, `INFILE`, `INPUT`, `DATALINES` | Create and read datasets |
 | `INTNX` | Convert each date to the first day of its month |
 | `FORMAT` (`MONYY7.`, `COMMA12.2`) | Show months and amounts in a readable form |
@@ -44,12 +43,4 @@
 
 ## Dataset Source
 
-The data is **synthetic (fictional)**, created by the project author for learning and typed directly into the program with `DATALINES`. It contains no real customer information.
-
-To practise with real data, you can search public sources such as Kaggle (https://www.kaggle.com/datasets), the UCI Machine Learning Repository (https://archive.ics.uci.edu) or Data.gov (https://data.gov). Check each dataset's licence and credit it here if used.
-
-## How to Run
-
-1. Upload `04_monthly_deposit_withdrawal.sas` to SAS (for example SAS OnDemand for Academics).
-2. Change `%let proj_path = ...;` to your own folder.
-3. Submit the whole file.
+The data is **synthetic (fictional)**, created for learning and typed directly into the program with `DATALINES`. 
