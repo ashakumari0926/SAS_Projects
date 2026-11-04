@@ -110,7 +110,7 @@ run;
   Step 4: Print the monthly summary report
 --------------------------------------------------------------------*/
 option nodate;
-ods pdf file="/home/u39704259/Bank projects/monthly_deposit_withdrawl.pdf" startpage=no ;
+ods pdf file="/home/Bank projects/monthly_deposit_withdrawl.pdf" startpage=no ;
 proc print data=work.monthly_net noobs label;
     var month Deposit Withdrawal Net_Flow;
     sum Deposit Withdrawal Net_Flow;
